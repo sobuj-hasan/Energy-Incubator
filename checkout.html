@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<html lang="ar" dir="rtl">-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Energy Incubator</title>
+    <!--    BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous"> -->
+    <!-- FONTAWSOME6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!--    GOOGLE FONTS-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!--    SLICK-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--        <link rel="stylesheet" href="assets/css/arabic.css">-->
+</head>
+
+<body>
+
+    <!--    HEADER TOP-->
+    <section class="header-top pt-3">
+        <div class="container">
+            <div class="header-top-content d-flex justify-content-between">
+                <div class="info d-flex align-items-center">
+                    <div class="info-box d-none d-sm-block">
+                        <img src="assets/images/icons/phone-call.png" alt="">
+                        <span>+0551175959</span>
+                    </div>
+                    <div class="info-box">
+                        <img src="assets/images/icons/mail-inbox-app.png" alt="">
+                        <span>info@enrincu.com</span>
+                    </div>
+                    <div class="info-box">
+                        <img src="assets/images/icons/location.png" alt="">
+                        <span>Riyadh, Saudi Arabia</span>
+                    </div>
+                </div>
+                <div class="privacy-policy d-block-md">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+                <div class="flug">
+                    <a href="#">
+                        <img src="assets/images/icons/us-flag.png" alt="">
+                        <span>English</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    HEADER TOP END-->
+    
+    <!--    HEADER MIDDLE-->
+    <section class="header-middle pb-3 pb-md-0">
+        <div class="container">
+            <div class="row">
+                <div class="header-middle-content">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="assets/images/logo/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="hed-search-bar-main d-none d-md-block">
+                        <form action="#" class="hed-search-bar">
+                            <input type="text" placeholder="Search by product">
+                            <button type="submit">
+                                <img src="assets/images/icons/search.png" alt="">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="cart-content-main">
+                        <div class="cart-content">
+                            <a href="#">
+                                <img src="assets/images/icons/heart.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="assets/images/icons/account.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hed-search-bar-main d-md-none">
+                        <form action="#" class="hed-search-bar">
+                            <input type="text" placeholder="Search by product">
+                            <button type="submit">
+                                <img src="assets/images/icons/search.png" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    HEADER MIDDLE END-->
+    
+    <!--    HEADER SECTION-->
+    <header class="my-md-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-9">
+                    <div class="menubar d-none d-md-block">
+                        <ul>
+                            <li class="category">
+                                <a href="" class="categories">
+                                    <img src="assets/images/icons/categories.png" alt="">
+                                    Categories
+                                    <i class="fas fa-caret-down align-items-end"></i>
+                                </a>
+                            </li>
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 d-flex align-items-center justify-content-between justify-content-lg-end">
+                    <div class="d-md-none mobile-btn-click" onClick="mobileClick()">
+                        <!-- <i class="fas fa-align-justify"></i> -->
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="my-cart">
+                        <a href="#" class="cart-box d-flex align-items-center">
+                            <span>
+                                <img src="assets/images/icons/cart.png" alt="">
+                            </span>
+                            <span>
+                                <b>My Cart</b>
+                                <b>SAR 00.00</b>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--    HEADER SECTION END-->
+    
+    <!--    MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="mobile-logo mb-3">
+                <a href="#">
+                    <img src="assets/images/logo/logo.png" alt="mobile-logo">
+                </a>
+                <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Categories
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Solar Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Wind Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Coal Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Water Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Green Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Petrolium Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Oil Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Chemical Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Heat Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> Pressure Energy Equipment</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i> All Categories</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item custom ">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Blog
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Login
+                        </button>
+                    </a>
+                </h2>
+            </div>
+        </div>
+    
+    </div>
+    <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+    <!--    MOBILE MENU END-->
+
+    <!-- CART SECTION START -->
+    <div class="cart-section">
+        <div class="container">
+            <div class="cart-breadcrump my-4">
+                <p><a href="#">Home / </a> <a class="text-dark" href="#"> My Cart </a></p>
+            </div>
+            <div class="row mb-5">
+                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 mb-lg-5 mt-4">
+                    <h4>Shipping Details</h4>
+                    <div class="shipping-address mt-5">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <p class="">Customer Name*</p>
+                                <input class="custom-form" type="text" placeholder="Enter Your Name" value="" name="name">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <p class="">Customer Mobile*</p>
+                                <input class="custom-form" type="text" placeholder="Enter Your Mobile no." value="" name="phone">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <p class="">Other Mobile ( Optional )</p>
+                                <input class="custom-form" type="text" placeholder="Enter Your Other Mobile no." value="" name="">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <p class="">Company Name ( Optional )</p>
+                                <input class="custom-form" type="text" placeholder="Enter Your Company Name" value="" name="">
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <p class="">Region*</p>
+                                <select class="custom-form" name="region">
+                                    <option selected>Please Choose Your Region</option>
+                                    <option value="1">Region Name 1</option>
+                                    <option value="2">Region Name 2</option>
+                                    <option value="3">Region Name 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <p class="">City*</p>
+                                <select class="custom-form" name="region">
+                                    <option selected>Please Choose Your City</option>
+                                    <option value="1">City Name 1</option>
+                                    <option value="2">City Name 2</option>
+                                    <option value="3">City Name 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <p class="">Area*</p>
+                                <select class="custom-form" name="region">
+                                    <option selected>Please Choose Your Area</option>
+                                    <option value="2">Area Name 2</option>
+                                    <option value="1">Area Name 1</option>
+                                    <option value="3">Area Name 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <p class="">Street Address*</p>
+                                <input class="custom-form" type="text" placeholder="Enter Your Street Address" value="" name="">
+                            </div>
+                            <div class="col-md-12 mb-4">
+                                <p class="">Reference/Note (Optional)</p>
+                                <textarea style="height: 112px;" class="custom-form"rea type="text" placeholder="Note.." value="" name="">Note..</textarea>
+                            </div>
+                        </div>
+
+                        <div class="payment-method mt-lg-5">
+                            <div class="accordion pt-5" id="accordionExample">
+                                <h6 class="mb-3">Select Payment Method</h6>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <h6>Credit / Debit Card</h6>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="row mt-4">
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">Card Number*</p>
+                                                    <input class="custom-form" type="text" placeholder="Card Number" value="" name="card_number">
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">Card Holder*</p>
+                                                    <input class="custom-form" type="text" placeholder="Card Holder" value="" name="card_holder">
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">Expiration Date*</p>
+                                                    <input class="custom-form" type="text" placeholder="Expire Date" value="" name="expire_date">
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">CVC*</p>
+                                                    <input class="custom-form" type="text" placeholder="CVC " value="" name="cvc">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <h6>Cryptocurrency</h6>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="row mt-4">
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">Card Number*</p>
+                                                    <input class="custom-form" type="text" placeholder="Card Number" value="" name="card_number">
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">Card Holder*</p>
+                                                    <input class="custom-form" type="text" placeholder="Card Holder" value="" name="card_holder">
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">Expiration Date*</p>
+                                                    <input class="custom-form" type="text" placeholder="Expire Date" value="" name="expire_date">
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">CVC*</p>
+                                                    <input class="custom-form" type="text" placeholder="CVC " value="" name="cvc">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <h6>Paypal </h6>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="row mt-4">
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">Card Number*</p>
+                                                    <input class="custom-form" type="text" placeholder="Card Number" value="" name="card_number">
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">Card Holder*</p>
+                                                    <input class="custom-form" type="text" placeholder="Card Holder" value="" name="card_holder">
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">Expiration Date*</p>
+                                                    <input class="custom-form" type="text" placeholder="Expire Date" value="" name="expire_date">
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <p class="">CVC*</p>
+                                                    <input class="custom-form" type="text" placeholder="CVC " value="" name="cvc">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 my-lg-4">
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <h4 class="mt-2">Order Summary</h4>
+                            <p class="mt-4 mb-2">Shipping Address</p>
+                            <span class="small-text">124, Gold link road, Riyadh, Saudi Arabia 10 no. sector, 15 no.
+                                road, 3rd floor of 1/1 tower of gold</span>
+                            <hr class="cart-divider">
+                            <div class="price-summary d-flex">
+                                <div class="title">
+                                    <h6 class="left mb-3">Subtotal</h6>
+                                    <h6 class="left my-3">Shipping</h6>
+                                    <h6 class="left my-3">Voucher</h6>
+                                    <h6 class="left my-3">VAT</h6>
+                                    <hr class="cart-divicer">
+                                    <h6 class="left">Total</h6>
+                                </div>
+                                <div class="price text-end">
+                                    <h6 class="mb-3">$1680</h6>
+                                    <h6 class="my-3">$60</h6>
+                                    <h6 class="my-3">$0.00</h6>
+                                    <h6 class="my-3">$0.00</h6>
+                                    <hr class="cart-divicer">
+                                    <h6>$1740</h6>
+                                </div>
+                            </div>
+                            <div class="place-order text-center mt-5 mb-3">
+                                <button type="button">Place order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CART SECTION END -->
+
+    <!--    FOOTER-->
+    <footer class="pt-5 pb-0 pb-md-5">
+        <div class="container">
+            <div class="footer-main pt-4">
+                <div class="row">
+                    <div class="footer-single-col mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="assets/images/logo/footer-logo.png" alt="Logo Photo">
+                                </a>
+                            </div>
+                            <p class="py-3">
+                                Marketing energy products and leasing energy equipment on behalf of others
+                            </p>
+                            <b>
+                                Riyahh Olaya - next to king fahd
+                            </b>
+                            <b>
+                                Library - King of saudi arabia
+                            </b>
+
+                        </div>
+                    </div>
+                    <div class="footer-single-col mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Company</h6>
+                            <ul>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">contact us</a></li>
+                                <li><a href="#">affiliations</a></li>
+                                <li><a href="#">order history</a></li>
+                                <li><a href="#">career</a></li>
+                                <li><a href="#">team member</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-single-col mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>My Account</h6>
+                            <ul>
+                                <li><a href="#">track my order</a></li>
+                                <li><a href="#">view cart</a></li>
+                                <li><a href="#">sign in</a></li>
+                                <li><a href="#">favourite list</a></li>
+                                <li><a href="#">help</a></li>
+                                <li><a href="#">privacy policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-single-col mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Customer Service</h6>
+                            <ul>
+                                <li><a href="#">payment methods</a></li>
+                                <li><a href="#">maney-back guarantee !</a></li>
+                                <li><a href="#">product returns</a></li>
+                                <li><a href="#">support center</a></li>
+                                <li><a href="#">shipping</a></li>
+                                <li><a href="#">terms & comdations</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-single-col mb-5 mb-lg-0">
+                        <div class="footer-head download">
+                            <h6>Download App</h6>
+
+                            <a href="#">
+                                <img src="assets/images/photos/app-store.jpg" alt="">
+                            </a>
+
+
+                            <a href="#">
+                                <img src="assets/images/photos/google-play.png" alt="">
+                            </a>
+
+                            <b> Got questions? call us 24/7</b>
+                            <p>
+                                +0551175959
+                            </p>
+                            <p>
+                                info@enrincu.com
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--    FOOTER END-->
+
+    <!--    COPYRIGHT-->
+    <section class="copyright-section">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-12 col-sm-6">
+                    <p>© Copyright 2021 Energy incubator - All Rights Reserved</p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="privacy-policy">
+                        <a href="#">Follow us :</a>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    COPYRIGHT END-->
+
+
+    <!--    JQUERY GOOGLE HOST-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        //        MOBILE MENU
+        function mobileClick() {
+            $("#mobile-menu").toggleClass('mobileAdd');
+            $("#mobileOverlay").toggleClass('mobile-overlay');
+        }
+        //   MOBILE MENU END
+
+    </script>
+</body>
+
+</html>

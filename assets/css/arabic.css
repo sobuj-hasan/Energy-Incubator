@@ -1,0 +1,73 @@
+.menubar{
+    text-align: left;
+}
+
+.mobile-menu{
+    left: inherit;
+    right: -380px;
+}
+.mobileAdd{
+    left: inherit;
+    right: 0 !Important;
+}
+.custom.accordion-body ul li a{
+    margin-left: 0;
+    margin-right: 40px;
+}
+.custom.accordion-body ul li a i{
+    margin-right: 0;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+.mobile-logo i{
+    float: left;
+}
+.mobile-logo img{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.sub-menu{
+    left: inherit;
+    right: 0;
+}
+.sub-menu > a{
+    text-align: right;
+}
+.home-menu-box img {
+	padding-right: 0px;
+	padding-left: 8px;
+}
+.event-btn a:first-child {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.post-by .line-dev span {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.post-by i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.post-by .admin {
+	padding-right: 0px;
+	padding-left: 20px;
+}
+.post-by .admin {
+	float: right;
+}
+.share-link a i {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.subscribe-form button {
+	right: inherit;
+	left: 5px;
+}
+.privacy-policy {
+	text-align: left;
+}
+.footer-head ul li i {
+	margin-right: 0;
+	margin-left: 10px;
+}
